@@ -1,0 +1,14 @@
+﻿<Window x:Class="ALfred_AI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ALfred_AI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="Alfredcommands" HorizontalAlignment="Left" Height="116" Margin="23,23,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="463" RenderTransformOrigin="0.353,-0.454"/>
+        <ProgressBar x:Name="progress" HorizontalAlignment="Left" Height="12" Margin="23,227,0,0" VerticalAlignment="Top" Width="463"/>
+
+    </Grid>
+</Window>
