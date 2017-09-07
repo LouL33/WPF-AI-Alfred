@@ -36,12 +36,25 @@ namespace ALfred_AI
                 speechRecognionEngine.SpeechHypothesized += new EventHandler<SpeechHypothesizedEventArgs>(engine_SpeechRecongnized);
                 // load dictonnary
                 LoadGrammerAndCommands();
+                // use the system's default microphone
+                speechRecognionEngine.SetInputToDefaultAudioDevice();
+                // start Listening
+                speechRecognionEngine.RecognizeAsync(RecognizeMode.Multiple);
+                ALFRED.SpeakCompleted += new EventHandler<SpeakCompletedEventArgs>(ALFRED_SpeakCompleted);
+
+                if (ALFRED.State == SynthesizerState.Speaking)
+                    ALFRED.SpeakAsyncCancelAll();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                throw;
+                MessageBox.Show(ex.Message, "voice recognition failed");
             }
+        }
+
+        private void ALFRED_SpeakCompleted(object sender, SpeakCompletedEventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         private void engine_SpeechRecongnized(object sender, SpeechHypothesizedEventArgs e)
@@ -64,7 +77,7 @@ namespace ALfred_AI
                 Grammar WordsList = new Grammar(new GrammarBuilder(Text));
                 speechRecognionEngine.LoadGrammar(WordsList);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
                 MessageBox.Show(ex.Message);
