@@ -54,17 +54,28 @@ namespace ALfred_AI
 
         private void ALFRED_SpeakCompleted(object sender, SpeakCompletedEventArgs e)
         {
-            throw new NotImplementedException();
+            if (ALFRED.State == SynthesizerState.Speaking)
+                ALFRED.SpeakAsyncCancelAll();
         }
 
         private void engine_SpeechRecongnized(object sender, SpeechHypothesizedEventArgs e)
         {
-            throw new NotImplementedException();
+            string Speech = e.Result.Text;
+            switch (Speech)
+            {
+                case "hello Alfred":
+                    ALFRED.SpeakAsync("hello master lou");
+                    break;
+                case "open google":
+                    ALFRED.SpeakAsync("opening google");
+                    System.Diagnostics.Process.Start("https://www.google.com/");
+                    break;
+            }
         }
 
         private void engine_AudioLevelUpdated(object sender, AudioLevelUpdatedEventArgs e)
         {
-            throw new NotImplementedException();
+            progress.Value = e.AudioLevel;
         }
 
         private void LoadGrammerAndCommands()

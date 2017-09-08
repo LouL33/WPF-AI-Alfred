@@ -1,0 +1,15 @@
+C:\Users\Lou75\Desktop\Alfred\ALfred-AI\ALfred-AI\bin\Debug\ALfred-AI.exe.config
+C:\Users\Lou75\Desktop\Alfred\ALfred-AI\ALfred-AI\bin\Debug\ALfred-AI.exe
+C:\Users\Lou75\Desktop\Alfred\ALfred-AI\ALfred-AI\bin\Debug\ALfred-AI.pdb
+C:\Users\Lou75\Desktop\Alfred\ALfred-AI\ALfred-AI\obj\Debug\ALfred-AI.csprojResolveAssemblyReference.cache
+C:\Users\Lou75\Desktop\Alfred\ALfred-AI\ALfred-AI\obj\Debug\MainWindow.g.cs
+C:\Users\Lou75\Desktop\Alfred\ALfred-AI\ALfred-AI\obj\Debug\App.g.cs
+C:\Users\Lou75\Desktop\Alfred\ALfred-AI\ALfred-AI\obj\Debug\ALfred-AI_MarkupCompile.cache
+C:\Users\Lou75\Desktop\Alfred\ALfred-AI\ALfred-AI\obj\Debug\ALfred-AI_MarkupCompile.lref
+C:\Users\Lou75\Desktop\Alfred\ALfred-AI\ALfred-AI\obj\Debug\MainWindow.baml
+C:\Users\Lou75\Desktop\Alfred\ALfred-AI\ALfred-AI\obj\Debug\ALfred-AI.g.resources
+C:\Users\Lou75\Desktop\Alfred\ALfred-AI\ALfred-AI\obj\Debug\ALfred_AI.Properties.Resources.resources
+C:\Users\Lou75\Desktop\Alfred\ALfred-AI\ALfred-AI\obj\Debug\ALfred-AI.csproj.GenerateResource.Cache
+C:\Users\Lou75\Desktop\Alfred\ALfred-AI\ALfred-AI\obj\Debug\ALfred-AI.csproj.CoreCompileInputs.cache
+C:\Users\Lou75\Desktop\Alfred\ALfred-AI\ALfred-AI\obj\Debug\ALfred-AI.exe
+C:\Users\Lou75\Desktop\Alfred\ALfred-AI\ALfred-AI\obj\Debug\ALfred-AI.pdb
